@@ -10,7 +10,9 @@ public class Main {
         System.out.println("1.Fibonacci Series");
         System.out.println("2.Prime Number");
         System.out.println("3.Perfect Number");
+        System.out.println("4.Reverse Number");
         System.out.println("Enter the choice: ");
+
         int choice = input.nextInt();
         switch (choice) {
             case 1:
@@ -19,6 +21,8 @@ public class Main {
                 primeNumber();
             case 3:
                 perfectNumber();
+            case 4:
+                reverseNumber();
         }
 
     }
