@@ -1,5 +1,6 @@
 package com.logical.programs;
 
+import static com.JUnitTest.TestingProblems.couponNumber;
 import static com.logical.programs.LogicalPrograms.*;
 
 import java.util.Scanner;
@@ -11,6 +12,7 @@ public class Main {
         System.out.println("2.Prime Number");
         System.out.println("3.Perfect Number");
         System.out.println("4.Reverse Number");
+        System.out.println("5.Coupon Number");
         System.out.println("Enter the choice: ");
 
         int choice = input.nextInt();
@@ -23,6 +25,8 @@ public class Main {
                 perfectNumber();
             case 4:
                 reverseNumber();
+            case 5:
+                couponNumber(5);
         }
 
     }

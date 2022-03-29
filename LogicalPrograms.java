@@ -94,4 +94,5 @@ public class LogicalPrograms {
         System.out.println("Total random Number needed " + count);
         return 0;
     }
+
 }
